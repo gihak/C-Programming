@@ -8,10 +8,7 @@ int main(void) {
     // int :  10진수 정수형
     // float : 실수형
     // char : 문자형
-
-    int a; // 변수 타입 명시 -> 선언(정의)
-    a = 10; // 변수 초기화(값 할당)
-
+    
     int x = 20; // 선언과 초기화를 동시에
     printf("x : %d\n", x); // 변수 사용. x는 그냥 값, 변수가 아님. = 이거를 기준으로 좌측에는 variable 우측에는 value
 
@@ -27,5 +24,5 @@ int main(void) {
 
     return 0;
 
-    
+
 }
