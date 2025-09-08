@@ -1,3 +1,1 @@
 # C-Programming
-# C
-# C
