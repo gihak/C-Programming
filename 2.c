@@ -24,7 +24,8 @@ int main(void) {
 
     x = x + 10; // x의 기존 값에 10을 더한 후 다시 x에 저장
     printf("x : %d\n", x);
-    
+
     return 0;
 
+    
 }
