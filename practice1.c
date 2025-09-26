@@ -86,12 +86,10 @@ int main (void) {
     // 결과 출력
     printf ("\n============= RESULT =============\n"); // 가독성을 위해
 
-    printf("NAME     ENGLISH      KOREAN\n");       
-    printf("         SCORE        SCORE\n");        
-    printf("%-8c %-12d %d\n", stu_name, eng_score, kor_score); 
-    // %-8c: stu_name 문자를 왼쪽 정렬로 8칸에 출력 (글자를 출력하고 뒤에 공백을 채워서 총 8칸을 맞춤)
-    // %-12d: eng_score 정수를 왼쪽 정렬로 12칸에 출력 (왼쪽 정렬, 최소 12칸 확보)
-    // %d: kor_score 정수를 출력
+    printf("NAME\tENGLISH\tKOREAN\n");       
+    printf("\tSCORE\tSCORE\t\n");        
+    printf("%c\t%d\t%d\t\n", stu_name, eng_score, kor_score); 
+ 
 
     return 0; 
 }
@@ -136,13 +134,13 @@ int main (void){
                        
     // 결과 출력
     printf ("\n============= RESULT =============\n"); // 가독성을 위해
-    printf("NAME     ENGLISH      KOREAN\n");       
-    printf("         SCORE        SCORE\n");        
-    printf("%-13c %-12d %d\n", stu_name, eng_score, kor_score); 
-    // %-13c  : stu_name 문자를 왼쪽 정렬로 8칸에 출력. (글자를 출력하고 뒤에 공백을 채워서 총 13칸을 맞춤)
-    // %-12d : eng_score 정수를 왼쪽 정렬로 12칸에 출력. (왼쪽 정렬, 최소 12칸 확보)
-    // %d    : kor_score 정수를 출력
+    printf("NAME\tENGLISH\tKOREAN\n");       
+    printf("\tSCORE\tSCORE\t\n");        
+    printf("%c\t%d\t%d\t\n", stu_name, eng_score, kor_score); 
 
     return 0;
 }
 */
+
+
+
