@@ -68,7 +68,7 @@ int main (void) { // 프로그램의 시작점인 main 함수.
 
 *****************************************************************************/
 
-
+/*
 #include <stdio.h> // C언어의 표준 입출력(Standard Input/Output) 함수를 사용하기 위해 포함하는 헤더 파일
 
 int main (void) { // 프로그램의 시작점인 main 함수
@@ -101,13 +101,14 @@ int main (void) { // 프로그램의 시작점인 main 함수
     reversed_num = (n5 * 10000) + (n4 * 1000) + (n3 * 100) + (n2 * 10) + n1;
 
     // 재구성한 원본 숫자를 화면에 출력
-    printf("\n입력된 숫자: %d\n", original_num);
+    printf("\n입력된 오리지널 숫자: %d\n", original_num);
     
     // 역순으로 만든 숫자를 화면에 출력
     printf("역순으로 변환된 숫자: %d\n", reversed_num);
 
     return 0;
 }
+*/
 
 
 /*****************************************************************************************************************
@@ -129,7 +130,7 @@ S       87            92          179        89.50
 
 
 
-/****************
+
 
 #include <stdio.h> // 표준 입출력 함수(printf, scanf 등)를 사용하기 위해 필요한 헤더 파일
 
@@ -161,6 +162,8 @@ int main (void) { // 프로그램의 시작점인 main 함수
     avg_score = total_score / 2.0; // 총점을 2.0으로 나누어 평균을 구함
                                    // 2가 아닌 2.0으로 나누어 실수 연산이 되도록 함
 
+    printf ("\n================ RESULT ================\n");
+    
     // 결과 출력 부분
     // 헤더(제목) 부분을 출력. \t는 탭(일정한 간격)을 의미
     printf ("\nNAME\tENGLISH\tKOREAN\tTOTAL\tAVERAGE");
@@ -168,9 +171,8 @@ int main (void) { // 프로그램의 시작점인 main 함수
     
     // 입력받은 값과 계산된 결과를 형식에 맞춰 출력.
     // %c: 문자, %d: 정수, %.2f: 소수점 둘째 자리까지의 실수
-    printf ("\n%c\t%d\t\t%d\t\t%d\t\t%.2f", stu_name, eng_score, kor_score, total_score, avg_score);
+    printf ("\n%c\t%d\t%d\t%d\t%.2f\n", stu_name, eng_score, kor_score, total_score, avg_score);
 
     return 0;
 }
 
-**********/
